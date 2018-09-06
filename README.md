@@ -1,2 +1,5 @@
-## first commit
-only trained model, no training code
+基于CRF的中文命名实体模型
+
+trained_model文件夹包含训练好的模型，可以直接下载查看效果。
+
+后续上传训练过程的代码及数据。
