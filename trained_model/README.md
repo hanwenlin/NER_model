@@ -1,7 +1,13 @@
-下载后将所有文件解压在同一文件夹内
+## 文件说明
+ - CRFmodel_V0.2.model ：训练好的模型文件，利用joblib导出
+ - pre_preocessing.py ：模型运算需要的函数包
+ - predict.py ：利用模型进行预测
+ 
+## 依赖说明
+python ：3.6
+sklearn_crfsuite ：0.3.6
+scikit-learn : 0.18.1
 
-"CRFmodel_V0.2.model"文件为训练好的识别模型，利用joblib导出
-
-pre_preocessing.py为模型执行必需函数文件
-
-predict.py为测试文件，cmd窗口运行：python predict.py
+## 使用说明
+在当前文件夹内打开cmd；
+输入：python predict.py
