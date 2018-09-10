@@ -73,12 +73,11 @@ def process_nr(words):
         index += 1
     return pro_words 
 
-
 def process_k(words):
     """
     功能：处理大粒度分词，包含在'[]'内的词可以作为组合词，将其合并，去掉两侧的'[]'
     输入：由带有词性标签的字符组成的列表
-    输出：合并后'的列表
+    输出：合并后的列表
     """
     pro_words = []
     index = 0
@@ -109,7 +108,7 @@ _maps = {u't': u'T',
 
 def pos_to_tag(p):
     """
-    功能：词性提取实体标签
+    功能：词性提取实体标签读法
     输入：语料库中的词性字符，如't','nr'等
     输出：对应的实体标签
     """
@@ -220,7 +219,6 @@ def extract_feature(word_grams):
         features.append(feature_list)
         feature_list = []
     return features
-
 	
 def predict(s):
     """
